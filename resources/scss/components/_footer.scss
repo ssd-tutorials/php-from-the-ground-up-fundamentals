@@ -1,0 +1,33 @@
+
+#footerWrapper {
+
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+
+  &, a, p, span {
+
+    color: $white;
+    font-size: 0.7rem;
+
+  }
+
+  a {
+
+    @include single-transition(color);
+
+    &:hover {
+
+      color: $warning-color;
+
+    }
+
+  }
+
+  p {
+
+    margin-bottom: 0;
+
+  }
+
+}

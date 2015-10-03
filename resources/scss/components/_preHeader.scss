@@ -1,0 +1,55 @@
+#preHeaderWrapper {
+
+  text-align: center;
+
+  background-color: $success-color;
+  padding: 0.8rem 0;
+  width: 100%;
+
+}
+
+#telephoneNumber {
+
+  font-weight: 700;
+  margin-bottom: 0;
+  color: $white;
+
+}
+
+
+#socialButtons {
+
+  a {
+
+    display: inline-block;
+    min-width: 2rem;
+    text-align: center;
+    color: $white;
+
+    @include single-transition(color);
+
+    &:hover {
+
+      color: $black;
+
+    }
+
+  }
+
+}
+
+@media #{$medium-up} {
+
+  #preHeaderLeft {
+
+    text-align: left;
+
+  }
+
+  #preHeaderRight {
+
+    text-align: right;
+
+  }
+
+}

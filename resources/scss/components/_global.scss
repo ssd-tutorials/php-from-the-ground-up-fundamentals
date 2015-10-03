@@ -1,0 +1,47 @@
+
+#wrapper {
+
+  background-color: $white;
+
+}
+
+
+.divider {
+
+  line-height: 0;
+  font-size: 0;
+  height: 1.25rem;
+  width: 100%;
+  clear: both;
+
+}
+
+.clearer {
+
+  line-height: 0;
+  font-size: 0;
+  height: 0;
+  width: 100%;
+  clear: both;
+
+}
+
+.brtd {
+
+  border-top: dashed 1px $success-color;
+
+}
+
+.brts {
+
+  border-top: solid 1px $success-color;
+
+}
+
+.validationMessage {
+
+  display: block;
+  color: $alert-color;
+  margin-bottom: 0.3rem;
+
+}

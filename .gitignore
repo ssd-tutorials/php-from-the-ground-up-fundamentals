@@ -7,5 +7,4 @@ includes/
 index.php
 node_modules/
 pages/
-template.html
 template/

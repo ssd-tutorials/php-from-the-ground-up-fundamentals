@@ -1,0 +1,15 @@
+.idea
+.DS_Storage
+.htaccess
+bower.json
+bower_components/
+gulpfile.js
+images/
+includes/
+index.php
+node_modules/
+package.json
+pages/
+resources/
+template.html
+template/
